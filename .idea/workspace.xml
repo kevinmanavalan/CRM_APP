@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="235d18ac-b67c-4413-9fca-141b5e12e049" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/CrmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Services/CustomerServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/test/java/com/example/CRM_APP/CrmApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ApplicationDesign/ParkingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Candidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ComparatorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exceptions/BuyLaptop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GenericsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CRM_APP/CrmAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CRM_APP/CrmAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LambdaLearning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/BestTimeToBuyAndSellStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/CherryPicking_I.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/CountInversions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/ExclusiveTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/FindTheDuplicateNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/LargestNumberFromArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/ListAllPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/MajorityElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/MajorityElement2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/MaxProdSubArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/MaxSubArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/MergeSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/NextPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/NumpadMappingsExclusiveWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/RepeatAndMissing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/RotateImageBy90Degree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/SearchBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/Searcha2DMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/SeatingArrangement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/SetMatrixToZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/SortThreeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/StringCompression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/UniqueElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/ValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OverridingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SynchronizationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/CustomStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../streamsWork/StreamsExample.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2jMn6FVMbElUFhj4nOuB9fT091v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;crm__dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Kevin/IdeaProjects/JavaBasics&quot;
+  }
+}</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\Hp\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="f765dd0b-d39e-45bb-9176-569797976723" />
+        <option name="reportName" value="CRM_APP/qodana/2024-07-19" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\Hp\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f765dd0b-d39e-45bb-9176-569797976723" reportId="CRM_APP/qodana/2024-07-19" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="235d18ac-b67c-4413-9fca-141b5e12e049" name="Changes" comment="" />
+      <created>1721205637964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721205637964</updated>
+    </task>
+    <servers />
+  </component>
+</project>
