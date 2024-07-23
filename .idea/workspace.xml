@@ -5,82 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="235d18ac-b67c-4413-9fca-141b5e12e049" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/qodana.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/CrmApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/java/com/example/CRM_APP/Customer/Services/CustomerServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootBackend/src/test/java/com/example/CRM_APP/CrmApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ApplicationDesign/ParkingApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Candidate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ComparatorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exceptions/BuyLaptop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GenericsExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CRM_APP/CrmAppApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CRM_APP/CrmAppApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaLearning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/BestTimeToBuyAndSellStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/CherryPicking_I.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/CountInversions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/ExclusiveTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/FindTheDuplicateNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/LargestNumberFromArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/ListAllPermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/MajorityElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/MajorityElement2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/MaxProdSubArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/MaxSubArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/MergeSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/NextPermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/NumpadMappingsExclusiveWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Power.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/RepeatAndMissing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/RotateImageBy90Degree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/SearchBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Searcha2DMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/SeatingArrangement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/SetMatrixToZero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/SortThreeNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/StringCompression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/UniqueElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/ValidParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OverridingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SynchronizationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/javaBasics/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/CustomStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/Streams8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../streamsWork/StreamsExample.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_frontend/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +59,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;crm__dev&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Kevin/IdeaProjects/JavaBasics&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "crm__dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Kevin/IdeaProjects/CRM_APP/react_frontend"
   }
-}</component>
+}]]></component>
   <component name="QodanaHighlightedReportService">
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>

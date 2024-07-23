@@ -33,16 +33,21 @@ public class CustomerServices {
         return customerRepository.findByLastNameOrFirstName(name, name);
     }
 
-    public Customer addCustomer(Customer customer) throws FileAlreadyExistsException {
-        if (!customerRepository.existsByEmail(customer.getEmail())) {
-            try {
-                return customerRepository.save(customer);
-            } catch (Exception e) {
-                throw new RuntimeException("Customer could not be added");
+    public Iterable<Customer> addCustomer(List<Customer> customers) throws FileAlreadyExistsException {
+        for(Customer customer : customers){
+            if (customerRepository.existsByEmail(customer.getEmail())) {
+                throw new FileAlreadyExistsException("Customer already exists in records");
+//                try {
+//                    return customerRepository.save(customer);
+//                } catch (Exception e) {
+//                    throw new RuntimeException("Customer could not be added");
+//                }
             }
-        } else {
-            throw new FileAlreadyExistsException("Customer already exists in records");
+//            else {
+//
+//            }
         }
+        return customerRepository.saveAll(customers);
     }
 
     public Customer saveCustomer(Customer customer) {

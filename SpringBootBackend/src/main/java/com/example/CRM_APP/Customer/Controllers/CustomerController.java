@@ -26,9 +26,9 @@ public class CustomerController {
     }
 
     @PostMapping
-    public ResponseEntity<Customer> addNewCustomer(@RequestBody Customer customer){
+    public ResponseEntity<Iterable<Customer>>  addNewCustomer(@RequestBody List<Customer> customers){
         try{
-            return ResponseEntity.ok(customerServices.addCustomer(customer));
+            return ResponseEntity.ok(customerServices.addCustomer(customers));
         }catch (FileAlreadyExistsException e){
             return ResponseEntity.status(HttpStatus.CONFLICT).body(null);
         }catch(RuntimeException e){
