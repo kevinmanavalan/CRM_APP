@@ -13,7 +13,6 @@ const NavBar = () => {
         <div>
             <Navbar  container="fluid" expand="md">
             <NavbarBrand href="#">
-                {/* <i className="bi bi-person-vcard"></i> */}
                 CRM_APP
             </NavbarBrand>
             <NavbarToggler onClick={toggle} className="me-2"/>

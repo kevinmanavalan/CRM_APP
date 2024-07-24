@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import NavBar from '../NavBar/NavBar';
 import { Button, Container } from 'reactstrap';
 
 const Home = () => {
@@ -7,9 +6,9 @@ const Home = () => {
   return (
     <>
       <Container fluid>
-        <Button color='primary' outline>
+        <Button outline color='primary' >
           <Link to={"/customerslisting"}>Customers</Link>
-        </Button>
+        </Button>{' '}
       </Container>     
     </>
   );

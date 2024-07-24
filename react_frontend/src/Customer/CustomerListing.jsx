@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Button, ButtonGroup, Container, Table } from "reactstrap";
 import CustomerModal from "./CustomerModal";
+import { BarLoader } from "react-spinners";
 
 const CustomerListing = () => {
 
@@ -9,10 +10,18 @@ const CustomerListing = () => {
     const [selectedCustomer, setSelectedCustomer] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
     const [newCustomer, setNewCustomer] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     const fetchData = async () =>{
-        const response = await axios.get("customers");
-        setCustomers(response.data)
+        try{
+            const response = await axios.get("customers");
+            setCustomers(response.data)
+        }catch(error){
+            console.log("error fetching customer data", error.message);
+        }finally{
+            setLoading(false);
+        }
+        
     }
 
     const removeCustomer = async (id) => {
@@ -132,9 +141,10 @@ const CustomerListing = () => {
                 <Button color="success" onClick={handleNewCustomer}>Add new customer</Button>
             </div>
             <h3>Customers</h3>
-            {listing()}
+            {!loading && listing()}
             <CustomerModal isOpen={modalOpen} newCustomer={newCustomer} customer={selectedCustomer} toggle={toggleModal} handleSave={handleSaveCustomer}/>
         </Container>
+        <BarLoader color="fuchsia" loading={loading} size={300}/>
         </>
     )
 };
