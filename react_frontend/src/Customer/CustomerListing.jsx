@@ -136,15 +136,21 @@ const CustomerListing = () => {
     }, []);
     return(
         <>
-        <Container fluid>
-            <div className="float-end">
-                <Button color="success" onClick={handleNewCustomer}>Add new customer</Button>
+        <div className="d-flex flex-column" style={{ height: 'calc(100vh - 56px)' }}>
+            <div>
+                <Container fluid>
+                    <div className="float-end">
+                        <Button color="success" onClick={handleNewCustomer}>Add new customer</Button>
+                    </div>
+                    <h3>Customers</h3>
+                    {!loading && listing()}
+                    <CustomerModal isOpen={modalOpen} newCustomer={newCustomer} customer={selectedCustomer} toggle={toggleModal} handleSave={handleSaveCustomer}/>
+                </Container>
             </div>
-            <h3>Customers</h3>
-            {!loading && listing()}
-            <CustomerModal isOpen={modalOpen} newCustomer={newCustomer} customer={selectedCustomer} toggle={toggleModal} handleSave={handleSaveCustomer}/>
-        </Container>
-        <BarLoader color="fuchsia" loading={loading} size={300}/>
+            <div className="flex-grow-1 d-flex justify-content-center align-items-center">
+                <BarLoader color="fuchsia" loading={loading} size={300}/>
+            </div>
+        </div>
         </>
     )
 };
