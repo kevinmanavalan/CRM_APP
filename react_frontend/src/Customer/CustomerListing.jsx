@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Button, ButtonGroup, Container, Table } from "reactstrap";
+import { Button, ButtonGroup, Container, Input, Table } from "reactstrap";
 import CustomerModal from "./CustomerModal";
-import { BarLoader } from "react-spinners";
+import { ClimbingBoxLoader } from "react-spinners";
 
 const CustomerListing = () => {
 
@@ -11,6 +11,7 @@ const CustomerListing = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const [newCustomer, setNewCustomer] = useState(false);
     const [loading, setLoading] = useState(true);
+    const [filterKey, setFilterKey] = useState('');
 
     const fetchData = async () =>{
         try{
@@ -94,6 +95,9 @@ const CustomerListing = () => {
         setNewCustomer(true);
         toggleModal()
     }
+    const filteredData = (customers, filterKey) =>{
+        return customers.filter(customer => Object.values(customer).some(fields => (""+fields).toLowerCase().includes(filterKey)));
+    }
 
     const listing = () => {
         return(
@@ -108,7 +112,7 @@ const CustomerListing = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {customers && (customers.map(customer=>(
+                    {customers && (filteredData(customers, filterKey).map(customer=>(
                         <tr key={customer.id}>
                             <th scope="row">{customer.id}</th>
                             <td>{customer.firstName}</td>
@@ -140,6 +144,9 @@ const CustomerListing = () => {
             <div>
                 <Container fluid>
                     <div className="float-end">
+                        <div className="float-start">
+                            <Input type="text" placeholder="Search..." value={filterKey} onChange={e => setFilterKey(e.target.value)} />
+                        </div>
                         <Button color="success" onClick={handleNewCustomer}>Add new customer</Button>
                     </div>
                     <h3>Customers</h3>
@@ -148,7 +155,7 @@ const CustomerListing = () => {
                 </Container>
             </div>
             <div className="flex-grow-1 d-flex justify-content-center align-items-center">
-                <BarLoader color="fuchsia" loading={loading} size={300}/>
+                <ClimbingBoxLoader color="fuchsia" loading={loading} size={50}/>
             </div>
         </div>
         </>
