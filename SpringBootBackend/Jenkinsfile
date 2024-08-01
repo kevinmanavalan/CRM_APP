@@ -10,8 +10,8 @@ pipeline {
         }
         stage("Build"){
             steps{
-                dir('SpringBootBackend'){
-                    sh 'mvn clean install'
+                sh 'cd SpringBootBackend'
+                sh 'mvn clean install'
                 }
                 echo 'Build Stage'
             }
