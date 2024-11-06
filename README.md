@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">A basic CRUD application to manage Customers 😎</p>
+<p align="left">A CRUD application to manage Customers 😎</p>
 
 ###
 
